@@ -1,0 +1,68 @@
+  <div flex layout="row">
+
+ <md-sidenav md-is-locked-open="$mdMedia('gt-sm')" md-component-id="left"
+      class="md-whiteframe-z2">
+        <md-list>
+            <md-list-item>
+                <md-button data-ui-sref="home" md-active="$state.is('home')">
+                    <md-icon class="material-icons md-light md-48"> person </md-icon>
+                    About Me
+                </md-button>
+            </md-list-item>
+             <md-list-item>
+                <md-button data-ui-sref="updates" md-active="$state.is('updates')">
+                    <md-icon class="material-icons md-light md-48"> chat_bubble_outline </md-icon>
+                    Status Updates
+                </md-button>
+            </md-list-item>
+            <md-list-item>
+                <md-button data-ui-sref="projects" md-active="$state.is('projects')">    
+                    <md-icon class="material-icons md-light md-48"> folder_open </md-icon>
+                    My Projects
+                </md-button>
+            </md-list-item>
+             <md-list-item>
+                <md-button data-ui-sref="contact" md-active="$state.is('contact')">    
+                    <md-icon class="material-icons"> mail_outline </md-icon>
+                    Contact Me
+                </md-button>
+            </md-list-item>
+        </md-list>
+    </md-sidenav>
+
+
+
+
+
+
+  <md-content flex id="content">
+      <h2 class="page-title">My Projects</h2>
+      <hr />
+      <div layout="row">
+      <div class="project">
+        <h3>SUNY Poly Capstone</h3>
+        <p class="project_date">May 1st, 2016</p>
+        <p>Security awareness website I made with a colleague for my capstone at Suny Poly. The portion that you will see is the portion of the website that I developed.</p>
+        <br />
+        <br />
+        <md-button class="md-accent md-raised" href="https://www.youtube.com/watch?v=FaseZ4La_2s" class="button" target="_blank">
+         Link to demonstration video</md-button>
+        <md-button class="md-accent md-raised" href="https://github.com/nadirjin/Suny-Poly-Capstone" class="button" target="_blank">
+        Link to source code</md-button>
+      </div>
+            <div class="project">
+        <h3>SUNY Poly Capstone</h3>
+        <p class="project_date">May 1st, 2016</p>
+        <p>Security awareness website I made with a colleague for my capstone at Suny Poly. The portion that you will see is the portion of the website that I developed.</p>
+        <br />
+        <br />
+        <md-button class="md-accent md-raised" href="https://www.youtube.com/watch?v=FaseZ4La_2s" class="button" target="_blank">
+         Link to demonstration video</md-button>
+        <md-button class="md-accent md-raised" href="https://github.com/nadirjin/Suny-Poly-Capstone" class="button" target="_blank">
+        Link to source code</md-button>
+      </div>
+      </div>
+
+    
+
+</div>

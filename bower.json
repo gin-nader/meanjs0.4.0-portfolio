@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "0.4.0",
+  "description": "Full-Stack JavaScript with MongoDB, Express, AngularJS, and Node.js",
+  "dependencies": {
+    "bootstrap": "~3",
+    "angular": "1.5.8",
+    "angular-resource": "1.5.8",
+    "angular-animate": "1.5.8",
+    "angular-mocks": "1.5.8",
+    "angular-bootstrap": "~0.13",
+    "angular-ui-utils": "bower",
+    "angular-ui-router": "~0.2",
+    "angular-file-upload": "1.1.5",
+    "angular-material": "^1.0.9"
+  },
+  "resolutions": {
+    "angular": "1.5.8",
+    "angular-animate": "1.5.8",
+    "angular-material": "^1.0.9",
+    "angular-aria": "1.5.8"
+  },
+  "devDependencies": {
+    "livereload-js": "^2.2.1"
+  }
+}

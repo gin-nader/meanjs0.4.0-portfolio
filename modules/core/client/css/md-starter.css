@@ -1,0 +1,220 @@
+
+/* Toolbar area */
+
+.menu {
+  background-color: transparent;
+  border: none;
+  height: 38px;
+  margin: 16px;
+  width: 36px;
+  color: white !important;
+}
+
+md-toolbar h2 {
+  margin: auto;
+  font-weight: 800 !important;
+  font-size: 1.2em !important;
+  padding: 1.5rem  !important;
+  text-decoration: none !important;
+  color: white !important;
+  font-family: 'Lobster', cursive;
+}
+
+
+
+.fa {
+  float: right;
+  color: white;
+  margin: 1em .50em;
+}
+
+.fa-github:hover {
+  color: #333333;
+}
+
+.fa-linkedin-square:hover {
+  color: #0077b5;
+}
+
+
+
+
+/* Sidenav area */
+md-sidenav {
+  background-color: #4dd0e1;
+}
+md-list .md-button {
+  color: white;
+  font-weight: 500;
+  width: 100%;
+  padding: 3em 6px;
+  text-align: center;
+}
+  md-list .md-button.selected {
+    color: #03a9f4;
+  }
+
+  md-sidenav  md-list {
+    padding: 0px 0px 8px 0px;
+  }
+
+.md-button {
+  padding: 0 6px 0 6px;
+  margin: 6px 8px 6px 8px;
+  min-width: 88px;
+  border-radius: 3px;
+  font-size: 14px;
+  
+  text-transform: uppercase;
+  text-decoration:none;
+  border: none;
+  outline: none;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px !important;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  float: left;
+  color: white;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* Primary content area */
+
+#content {
+  overflow: hidden;
+}
+
+#content  {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+}
+
+#content .md-button.share {
+  background-color: transparent;
+  border: none;
+  width: 48px;
+  height: 48px;
+  margin: 8px auto 16px 0;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+}
+
+#content md-icon.avatar {
+  margin-top: 10px;
+}
+
+#content .md-button.share > md-icon {
+  fill:black;
+  width:36px;
+  height:36px;
+}
+
+.page-title {
+  text-align: center;
+}
+
+md-button.menuBtn > md-icon {
+  fill:white;
+  width:24px;
+  height:24px;
+}
+
+#content .md-button.share:active > md-icon {
+  background-color: #dadada;
+  border-radius: 75%;
+  padding:4px;
+  transition: all 100ms ease-out 30ms;
+}
+
+#content img {
+  display: block;
+  height: auto;
+  max-width: 500px;
+}
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  background-color: #00e676;
+  border-top: 2px soild #00e676;
+  margin: 2rem 0 10rem 0;
+}
+
+.update {
+  border: 2px solid #4dd0e1;
+  padding: 0 .5em 1.25em .5em;
+  margin: .5em .5em;
+}
+
+.date {
+  font-size: 1rem;
+  color: #00e676;
+  font-weight: 700;
+  margin: 0 .5em 0 .5em;
+}
+
+.project_date {
+   color: #00e676;
+}
+
+/* Utils */
+
+.content-wrapper {
+  position: relative;
+}
+
+/* Typography support coming in 0.8.0 */
+
+md-toolbar h1 {
+  font-size: 1.250em;
+  font-weight: 400;
+}
+
+.avatar {
+  position: relative;
+  width: 128px;
+  height: 128px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0px;
+  vertical-align: middle;
+  zoom:0.70;
+  transform: translateZ(0);
+  -webkit-transform: scale(0.70);
+  -moz-transform:scale(0.70);
+}
+
+
+md-bottom-sheet  md-icon {
+  margin-right:20px;
+}
+
+
+
+a {
+  text-decoration: none;
+}

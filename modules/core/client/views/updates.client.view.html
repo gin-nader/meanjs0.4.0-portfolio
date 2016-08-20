@@ -1,0 +1,49 @@
+ <div flex layout="row">
+
+ <md-sidenav md-is-locked-open="$mdMedia('gt-sm')" md-component-id="left"
+      class="md-whiteframe-z2">
+        <md-list>
+            <md-list-item>
+                <md-button data-ui-sref="home" md-active="$state.is('home')">
+                    <md-icon class="material-icons md-light md-48"> person </md-icon>
+                    About Me
+                </md-button>
+            </md-list-item>
+             <md-list-item>
+                <md-button data-ui-sref="updates" md-active="$state.is('updates')">
+                    <md-icon class="material-icons md-light md-48"> chat_bubble_outline </md-icon>
+                    Status Updates
+                </md-button>
+            </md-list-item>
+            <md-list-item>
+                <md-button data-ui-sref="projects" md-active="$state.is('projects')">    
+                    <md-icon class="material-icons md-light md-48"> folder_open </md-icon>
+                    My Projects
+                </md-button>
+            </md-list-item>
+             <md-list-item>
+                <md-button data-ui-sref="contact" md-active="$state.is('contact')">    
+                    <md-icon class="material-icons"> mail_outline </md-icon>
+                    Contact Me
+                </md-button>
+            </md-list-item>
+        </md-list>
+    </md-sidenav>
+
+
+
+
+
+  <md-content  flex id="content">
+	<div class="wrapper homepage_content" data-ng-controller="updateController" id="status_updates">
+	  <h2 class="page-title">{{ title }}</h2>
+	  <hr />
+	  <div layout="row">
+	  <div data-ng-repeat="update in updates" class="update container col s1">
+	    <h5>{{ update.text }}</h5>
+	    <p class="date">{{update.date | date }}</p>
+	  </div>
+	  </div>
+	</div>
+  </md-content>
+</div>
