@@ -7,6 +7,10 @@
   height: 38px;
   margin: 16px;
   width: 36px;
+   color: white;
+}
+
+.menu-icon {
   color: white !important;
 }
 
@@ -99,8 +103,21 @@ md-list .md-button {
 
 /* Primary content area */
 
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 8px;
+    background-image: -webkit-linear-gradient(#69f0ae, #00e676);
+}
+
+
+
 #content {
-  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 #content  {
@@ -178,6 +195,18 @@ hr {
 .project_date {
    color: #00e676;
 }
+
+.me {
+  margin: 1em;
+}
+
+.bio, .skills, .project {
+  margin: 1em;
+  border: 2px solid #4dd0e1;
+  padding: 1em;
+}
+
+
 
 /* Utils */
 
