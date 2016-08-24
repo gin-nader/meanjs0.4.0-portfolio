@@ -180,9 +180,11 @@ hr {
 }
 
 .update {
-  border: 2px solid #4dd0e1;
+  border: 2px solid #18ffff ;
+  border-radius: 5px;
   padding: 0 .5em 1.25em .5em;
   margin: .5em .5em;
+  position: relative;
 }
 
 .date {
@@ -190,10 +192,13 @@ hr {
   color: #00e676;
   font-weight: 700;
   margin: 0 .5em 0 .5em;
+  position: absolute;
+  bottom: 0;
 }
 
 .project_date {
    color: #00e676;
+   font-weight: 700;
 }
 
 .me {
@@ -202,8 +207,14 @@ hr {
 
 .bio, .skills, .project {
   margin: 1em;
-  border: 2px solid #4dd0e1;
+  border: 2px solid #18ffff ;
   padding: 1em;
+  border-radius: 5px;
+}
+
+.contact-form {
+  border: 2px solid #18ffff ;
+  border-radius: 5px;
 }
 
 
