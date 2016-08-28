@@ -10,7 +10,7 @@ angular.module('core').controller('updateController', ['$scope', function($scope
     date: new Date('2016', '07', '08')
   },
   {
-    text: "Trying to decide between Django vs. Rails for web development. I like python,but I really like the Rails framework.",
+    text: "Trying to decide between Django vs. Ruby on Rails for web development. I like python, but I really like the Rails framework.",
     date: new Date('2016', '06', '29')
   },
   {
@@ -20,6 +20,12 @@ angular.module('core').controller('updateController', ['$scope', function($scope
   {
     text: "test update",
     date: new Date('2016', '06', '25')
+  }
+  ],
+  $scope.updatesTwo = [
+  {
+    text: "My portfolio is finally finished. It now has the URL tomginader.com",
+    date: new Date('2016', '07', '27')
   }
   ];
 }]);
